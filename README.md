@@ -30,20 +30,6 @@ streamlit run app.py
 
 Add your Gemini API key in the sidebar when the app opens.
 
-## Deploy on Streamlit Cloud
-
-1. Push this repo to GitHub
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Click **New app** → select your repo → set main file to `app.py`
-4. Add your Gemini API key as a **secret** (optional — users can enter it in the UI)
-5. Click **Deploy**
-
-### Optional: Add API key as a Streamlit Secret
-
-In Streamlit Cloud → your app → **Settings → Secrets**, add:
-```toml
-GEMINI_API_KEY = "AIza..."
-```
 
 ## Project Structure
 
