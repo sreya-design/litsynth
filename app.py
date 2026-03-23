@@ -377,8 +377,8 @@ if run_btn:
         st.error("Please add your Gemini API key in the sidebar — or set GEMINI_API_KEY in Streamlit Secrets.")
     else:
         genai.configure(api_key=api_key)
-        flash = genai.GenerativeModel("gemini-1.5-flash")
-        pro   = genai.GenerativeModel("gemini-1.5-pro")
+        flash = genai.GenerativeModel("gemini-2.0-flash")
+        pro   = genai.GenerativeModel("gemini-2.0-flash")
 
         log_ph = st.empty(); prog_ph = st.progress(0); status_ph = st.empty()
         log_lines = []
